@@ -4,7 +4,7 @@ import Head from "next/head"
 const Custom404: NextPage = () => {
 
     return (
-        <div className="flex flex-col items-center justify-center h-screen bg-emerald-500 text-white">
+        <div className="flex flex-col items-center justify-center h-screen bg-blue-600 text-white">
             <Head>
                 <title>¡Página no encontrada!</title>
             </Head>
