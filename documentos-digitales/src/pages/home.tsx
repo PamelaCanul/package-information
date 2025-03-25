@@ -1,4 +1,4 @@
-import { Home } from "@/components/organisms/Home";
+import Home from '../components/organisms/Home'
 import Layout from "@/components/templates/MainLayout";
 import { NextPage } from "next";
 
@@ -6,9 +6,7 @@ interface Props {
     title?: string
 }
 
-const HomePage: NextPage<Props> = ({
-}) => {
-
+const HomePage: NextPage<Props> = () => {
     return (
         <Layout>
             <Home />
@@ -16,5 +14,4 @@ const HomePage: NextPage<Props> = ({
     );
 }
 
-
-export default HomePage
+export default HomePage;
