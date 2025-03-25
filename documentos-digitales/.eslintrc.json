@@ -1,0 +1,12 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "plugins": ["import", "react", "jsx-a11y", "react-hooks"],
+  "rules": {
+    "import/no-extraneous-dependencies": ["warn", { "devDependencies": true }],
+    "react-hooks/rules-of-hooks": "warn",
+    "react-hooks/exhaustive-deps": "warn",
+    "no-unused-vars": "warn",
+    "eqeqeq": "warn",
+    "no-console": "warn"
+  }
+}
