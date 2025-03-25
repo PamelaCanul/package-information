@@ -31,8 +31,9 @@
 - **Next.js** - Framework de React para desarrollo SSR y SSG.
 - **TypeScript** - Tipado estático para mayor seguridad en el código.
 - **Tailwind CSS** - Estilos con clases utilitarias.
-- **React** - Librería para la construcción de interfaces.
+- **RTK Query** - Manejo eficiente del estado global y solicitudes HTTP.
 - **Firebase** - Backend para autenticación y almacenamiento.
+- **Ant Design** - Componentes UI preconstruidos para una interfaz moderna.
 
 ## 📌 Instalación y Configuración
 1. Clonar el repositorio:
